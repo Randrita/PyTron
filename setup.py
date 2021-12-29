@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     USER_NAME= "Randrita"
 
 setuptools.setup(
-    name=f"{PROJECT_NAME}",
+    name=f"{PROJECT_NAME}-{USER_NAME}",
     version="0.0.2",
     author=USER_NAME,
     author_email="randritas@gmail.com",
